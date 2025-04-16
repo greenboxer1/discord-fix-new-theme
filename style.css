@@ -19,8 +19,17 @@
 .chatContent_f75fb0 { /* Чат */
     background-color: #36393f !important;
 }
+.messageListItem__5126c:hover { /* Цвет наведения на сообщение */
+    background-color: #2e3035 !important;
+}
 .scrollableContainer__74017.themedBackground__74017 { /* Поле ввода в чат */
     background: #40444b !important; 
+}
+:root { /* Пинг сообщение в чате */
+    --background-mentioned: #46423c !important;
+}
+.message__5126c.cozyMessage__5126c.mentioned__5126c:hover { /* Пинг сообщения в чате при наведении мышки */
+    background: #554b38 !important;
 }
 .container_c8ffbb { /* Разделитель списка участников и чата */
     border-left: none !important; 
@@ -47,9 +56,7 @@
 .icon__6e9f8 { /* Округление иконок серверов */
     border-radius: 100px !important;
 }
-.messageListItem__5126c:hover { /* Цвет наведения на сообщение */
-    background-color: #2e3035 !important;
-}
+
 /* Настройки */
 .sidebarRegionScroller__23e6b.thin_d125d2.scrollerBase_d125d2.fade_d125d2 { /*левая панель */
     background: #313037 !important;
