@@ -7,11 +7,14 @@
     --background-base-low: #292b2f !important; /* Панелька с микрофоном */
     --bg-base-tertiary: #202225 !important; /* Список серверов */
 }
-.title_c38106, .recentsIcon_c99c29, .anchor_edefb8.anchorUnderlineOnHover_edefb8 { /* Удаление лишнего с верхней панели */
+.title_c38106 { /* Удаление лишнего с верхней панели */
     display: none;
 }
 :root {
     --custom-app-top-bar-height: 22px /* Уменьшение размера верхней панели */
+}
+.trailing_c38106 {
+    padding-right: 8px; /* Отступы верхней панели */
 }
 .chatContent_f75fb0 { /* Чат */
     background-color: #36393f !important;
