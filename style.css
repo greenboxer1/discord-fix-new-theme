@@ -56,7 +56,9 @@
 .icon__6e9f8 { /* Округление иконок серверов */
     border-radius: 100px !important;
 }
-
+.wrapper__6e9f8.selected__6e9f8 .icon__6e9f8 { /* Оквадрачивание активного сервера */
+  border-radius: 0px !important;
+}
 /* Настройки */
 .sidebarRegionScroller__23e6b.thin_d125d2.scrollerBase_d125d2.fade_d125d2 { /*левая панель */
     background: #313037 !important;
