@@ -10,20 +10,20 @@
 .title_c38106 { /* Удаление лишнего с верхней панели */
     display: none;
 }
-:root {
-    --custom-app-top-bar-height: 22px /* Уменьшение размера верхней панели */
+:root { /* Уменьшение размера верхней панели */
+    --custom-app-top-bar-height: 22px 
 }
-.trailing_c38106 {
-    padding-right: 8px; /* Отступы верхней панели */
+.trailing_c38106 { /* Отступы верхней панели */
+    padding-right: 8px; 
 }
 .chatContent_f75fb0 { /* Чат */
     background-color: #36393f !important;
 }
-.scrollableContainer__74017.themedBackground__74017 {
-    background: #40444b !important; /* Поле ввода в чат */
+.scrollableContainer__74017.themedBackground__74017 { /* Поле ввода в чат */
+    background: #40444b !important; 
 }
-.container_c8ffbb {
-    border-left: none !important; /* Разделитель списка участников и чата */
+.container_c8ffbb { /* Разделитель списка участников и чата */
+    border-left: none !important; 
 }
 .panels_c48ade { /*Исправление панельки с замутом */
     border-radius: 0 !important;
@@ -38,8 +38,8 @@
 .wrapper_ef3116.guilds_c48ade { /*Исправление списка серверов */
     margin-bottom: 0px !important;
 }
-.inner_c0bea0.biteSize_c0bea0 {
-    background: #292b2f !important; /* Цвета профилей */
+.inner_c0bea0.biteSize_c0bea0 { /* Цвета профилей */
+    background: #292b2f !important; 
 }
 .sidebar_c48ade::after { /*Убирание тупорылой полоски снизу */
     display: none !important;
@@ -56,4 +56,11 @@
 }
 .contentRegionScroller__23e6b.contentRegionShownSidebar__23e6b.auto_d125d2.scrollerBase_d125d2 { /*правая панель */
     background: #36393f !important;
+}
+/* Личные сообщения */
+.peopleColumn__133bf { /* Список друзей */
+    background: #36393f; 
+}
+.actionButton_f8fa06, .actionButton_f8fa06 { /* Иконки в списке друзей */
+    background: #3a3e44; 
 }
