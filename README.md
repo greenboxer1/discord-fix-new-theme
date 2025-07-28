@@ -9,5 +9,5 @@
 * Go to browser extensions
 * Turn on developer mode (usually the switch is on the top right)
 * Click on "load unpacked extension" (usually on the top left)
-* Select the folder unzipped folder (discord-old-theme-main)
+* Select the unzipped folder (discord-old-theme-main)
 
