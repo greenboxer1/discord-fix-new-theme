@@ -1,3 +1,4 @@
+Returns discord to the old theme with good contrast. Extension for the browser and for the modified client discord
 ## If you use discord client
 * Install: [Vencord](https://vencord.dev/download/) (If you have another modified client with Quick Css you can use it)
 * Open discord settings -> vencord -> EditQuickCss
