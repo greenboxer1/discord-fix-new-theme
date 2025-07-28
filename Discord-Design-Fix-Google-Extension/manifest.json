@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Discord fix theme",
+  "version": "1.0",
+  "description": "Old nice style for discord",
+  "content_scripts": [
+    {
+      "matches": ["*://*.discord.com/*"],
+      "css": ["styles.css"]
+    }
+  ]
+}
